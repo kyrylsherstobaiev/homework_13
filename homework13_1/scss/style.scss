@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	border: 5px solid black;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block.active {
+	background-color: green;
+}
+
+div[data-wrapper="wrapper"] {
+	background-color: blueviolet;
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	margin: 10px;
+}
